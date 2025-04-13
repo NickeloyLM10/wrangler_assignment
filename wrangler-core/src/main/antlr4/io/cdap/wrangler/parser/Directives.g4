@@ -64,8 +64,14 @@ directive
     | stringList
     | numberRanges
     | properties
+    | byteSize
+    | duration
   )*?
   ;
+
+duration: Number TIME_UNIT;
+
+byteSize: Number BYTE_UNIT;
 
 ifStatement
   : ifStat elseIfStat* elseStat? '}'
@@ -128,7 +134,7 @@ propertyList
  ;
 
 property
- : Identifier '=' ( text | number | bool )
+ : Identifier '=' ( text | number | bool | value )
  ;
 
 numberRanges
@@ -311,3 +317,17 @@ fragment Int
 fragment Digit
  : [0-9]
  ;
+
+BYTE_UNIT
+  : [kK][bB]
+  | [mM][bB]
+  | [gG][bB]
+  | [tT][bB]
+  ;
+
+TIME_UNIT
+  : [mM][sS]
+  | [sS]
+  | [mM]
+  | [hH]
+  ;
