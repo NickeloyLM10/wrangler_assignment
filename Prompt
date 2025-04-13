@@ -1,0 +1,41 @@
+"what is a .g4 file and what is its purpose"
+
+"what changes i need to do in directives.g4 file and why"
+
+"i want to created new commands for byte and timeduration how to do it"
+
+"where do i need to make classes for this byteSize and timeduration"
+
+"what are the functionalities i need in these classes"
+
+"write these classes"
+
+"what changes are left according to the assignment"
+
+"where and how should i implement Directive interface"
+
+"in execute method context.getTransientStore.set(storeKey, store); its showing - Expected 3 arguments but found 2"
+
+"write accordingly" (regarding TransientStore interface implementation)
+
+"there is no isLast method here" (regarding ExecutorContext interface)
+
+"what changes i need to do"
+
+"give me correct AggregateStats file"
+
+"in builder.define("sizeOutputUnit", TokenType.TEXT, Optional.TRUE); builder.define("timeOutputUnit", TokenType.TEXT, Optional.TRUE); builder.define("aggregationType", TokenType.TEXT, Optional.TRUE); Cannot resolve symbol 'TRUE'"
+
+"implement tests"
+
+"make test for this" (regarding ByteSize and TimeDuration classes)
+
+"tests for this" (regarding TimeDuration class)
+
+"make test according to this" (regarding ByteSize implementation)
+
+"create tests for AggregateStats"
+
+"when i try to run this code it shows - java: Annotation processing is not supported for module cycles. Please ensure that all modules from cycle [wrangler-core,wrangler-test] are excluded from annotation processing"
+
+"give me a list of prompts i asked for wrangler project"
