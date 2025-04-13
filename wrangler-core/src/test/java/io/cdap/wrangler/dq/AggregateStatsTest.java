@@ -13,7 +13,6 @@ import java.util.List;
  * This class tests various scenarios for aggregating byte sizes and time durations.
  */
 
-//@ExtendWith(TestingRig.class)
 public class AggregateStatsTest {
 
     @Test
